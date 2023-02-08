@@ -1,0 +1,76 @@
+#navbar {
+    height: 340px;
+    position: initial;
+}
+
+#navbar-container {
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+#navbar-items {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+#showcase {
+    height: 60vh;
+    padding: 0 30px;
+}
+
+#companies-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.company {
+    width: 50%;
+}
+
+#features-container {
+    grid-template-columns: 1fr;
+}
+
+.feature:nth-child(2) {
+    margin: 20px 0;
+}
+
+#nanos-container {
+    grid-template-columns: 1fr;
+}
+
+.nano-atual:nth-child(2) {
+    margin: 20px 0;
+}
+
+#cel-container {
+    grid-template-columns: 1fr;
+}
+
+.item-cel:nth-child(2) {
+    margin: 20px 0;
+}
+
+.testimonial {
+    flex-direction: column;
+    text-align: center;
+}
+
+#testimonials-container {
+    flex-direction: column;
+}
+
+.testimonial:nth-child(2) {
+    flex-direction: column;
+    text-align: right;
+    text-align: center;
+}
+
+#gallery-container {
+    grid-template-columns: 1fr;
+}
+
+.gallery-image {
+    width: 100%;
+}

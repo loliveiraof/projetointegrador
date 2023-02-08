@@ -1,128 +1,165 @@
 <!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/mobile.css">
     <title>Nanotecnologia nas células-tronco</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Clube da Luta</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Conteúdo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Equipe</a>
-                    </li>
-                </ul>
-            </div>
+    <nav id="navbar">
+        <div id="navbar-container">
+            <h1 class="logo">Projeto Integrador</h1>
+            <ul id="navbar-items">
+                <li><a href="#showcase">Início</a></li>
+                <li><a href="#nanos">Nanotecnologia</a></li>
+                <li><a href="#cel">Células-Tronco</a></li>
+                <li><a href="#nanos-atual">Aplicações da Nanotecnologia</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#testimonials">Equipe</a></li>
+            </ul>
         </div>
     </nav>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./imagem/img2.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./imagem/img3.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./imagem/img5.png" class="d-block w-100" alt="...">
-            </div>
+
+    <header id="showcase">
+        <div id="showcase-container">
+            <h2>Projeto Integrador.</h2>
+            <p>Projeto feito em colaboração com as disciplinas de Biologia e Autoria WEB ministradas pelos docentes
+                Andrea e Álvaro, respectivamente.</p>
+            <a class="btn" href="#gallery">Saiba mais</a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-    <!-- <header>
-        <nav class="nav-menu">
-            <a class="logo">Clube da Luta</a>
-            <ul class="main-menu">
-                <li class="menu-item"><a href="/" class="menu-link">Início</a></li>
-                <li class="menu-item"><a href="/" class="menu-link">Sobre</a></li>
-                <li class="menu-item"><a href="/" class="menu-link">Conteúdo</a></li>
-                <li class="menu-item"><a href="/" class="menu-link">Equipe</a></li>
-            </ul>
-            <div class="menu-hamburguer">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
     </header>
-    <section class="background">
-        <div class="background-container active">
-            <div class="background-picture">
-                <div class="background-text">
-                    <h3>Nanotecnologia nas células-tronco</h3>
-                    <p>A Nanotecnologia é uma ciência que trabalha em escala super reduzida, chamada nanométrica. Um nanômetro corresponde a um bilionésimo de metro, o que torna possível a medição de átomos e moléculas. Sendo assim, não há nada no Universo que não possa ser afetado pela Nanotecnologia, já que tudo é composto por átomos.</p>
-                    <a href="https://journal.einstein.br/wp-content/plugins/xml-to-html/include/lens/index.php?xml=2317-6385-eins-16-04-eRB4587.xml&lang=pt-br" target="_blank" class="button">Saiba mais</a>
-                </div>
+
+    <section id="nanos">
+        <div class="headline">Nanotecnologia</div>
+        <div id="features-container">
+            <div class="feature">
+                <span class="title">Como podemos definir?</span>
+                <p>Podemos definir nanotecnologia como sendo o termo utilizado para descrever a ciência voltada para a
+                    criação, manipulação e exploração de materiais com escala nanométrica. Um nanômetro (nm) equivale a
+                    um metro dividido por um bilhão ou seja, 1 nm = 10-9 m.</p>
+            </div>
+            <div class="feature">
+                <span class="title">Em que escala?</span>
+                <p>Com a nanotecnologia, é possível trabalhar com objetos entre 1 e 100 nanômetros. Marcado por sua
+                    escala extremamente reduzida pode ser utilizado para controlar os materiais de tal forma que até
+                    átomos e moléculas se tornam manipuláveis, sendo utilizados na construção de estruturas mais
+                    complexas.
+                </p>
+            </div>
+            <div class="feature">
+                <span class="title">Por que ouvimos tão pouco?</span>
+                <p>A nanotecnologia é um tema muito atual, já que somente a partir do ano de 2000 que a nanotecnologia
+                    começou a ser desenvolvida e testada em laboratórios. A base do uso da nanotecnologia é o nanômetro.
+                    Ele equivale a um bilionésimo de metro, o que traz grandes desafios para
+                    conseguir trabalhar em uma escala tão minúscula. A maior prova dessa dificuldade, está o fato de que
+                    apenas laboratórios e indústrias que têm equipamentos de alta precisão conseguem lidar com essa
+                    tecnologia.</p>
             </div>
         </div>
-        <div class="background-container">
-            <div class="background-picture">
-                <div class="background-text">
-                    <h3>Nanotecnologia nas células-tronco</h3>
-                    <p>A Nanotecnologia é uma ciência que trabalha em escala super reduzida, chamada nanométrica. Um nanômetro corresponde a um bilionésimo de metro, o que torna possível a medição de átomos e moléculas. Sendo assim, não há nada no Universo que não possa ser afetado pela Nanotecnologia, já que tudo é composto por átomos.</p>
-                    <a href="https://journal.einstein.br/wp-content/plugins/xml-to-html/include/lens/index.php?xml=2317-6385-eins-16-04-eRB4587.xml&lang=pt-br" target="_blank" class="button">Saiba mais</a>
-                </div>
+        <video controls loop src="./video/part-alanna.mp4" class="gallery-image" type="video/mp4"></video>
+        <a class="btnback" href="#showcase">Voltar ao início</a>
+    </section>
+
+    <section id="cel">
+        <div class="headline">Células-Tronco</div>
+        <div id="cel-container">
+            <div class="item-cel">
+                <p>As células-tronco, também chamadas de células estaminais são células
+                    animais que possuem a capacidade de dar origem a qualquer tipo celular especializado e outras.
+                    Além disso, as células-tronco possuem elevada capacidade de replicação, podendo se dividir
+                    várias vezes</p>
+            </div>
+            <div class="item-cel">
+                <p>As células-tronco formam um conjunto celular abundante na fase embrionária, mas com número baixo
+                    nos indivíduos adultos. Sua capacidade de formar outros tipos celulares é chamada de
+                    diferenciação celular e, principalmente na fase embrionária, esse processo é fundamental para a
+                    formação de tecidos e órgãos. Ao longo da vida adulta do organismo, as poucas células-tronco que
+                    restam estão relacionadas com a renovação celular.</p>
+            </div>
+            <div class="item-cel">
+                <p><em>Podem ser classificadas em: Células-Tronco Embrionárias, Células-Tronco Adultas e Células-Tronco
+                        Induzidas. São encontradas no embrião, no sangue (medula óssea) após a fase de embrião e
+                        produzidas e manipuladas em laboratório, respectivamente.</p>
             </div>
         </div>
-        <div class="background-container">
-            <div class="background-picture">
-                <div class="background-text">
-                    <h3>Nanotecnologia nas células-tronco</h3>
-                    <p>A Nanotecnologia é uma ciência que trabalha em escala super reduzida, chamada nanométrica. Um nanômetro corresponde a um bilionésimo de metro, o que torna possível a medição de átomos e moléculas. Sendo assim, não há nada no Universo que não possa ser afetado pela Nanotecnologia, já que tudo é composto por átomos.</p>
-                    <a href="https://journal.einstein.br/wp-content/plugins/xml-to-html/include/lens/index.php?xml=2317-6385-eins-16-04-eRB4587.xml&lang=pt-br" target="_blank" class="button">Saiba mais</a>
-                </div>
+        <video controls loop src="./video/part-ivan.mp4" class="gallery-image" type="video/mp4"></video>
+        <a id="btnbackexp" href="#showcase">Voltar ao início</a>
+    </section>
+
+    <section id="nanos-atual">
+        <div class="headline">Aplicações da Nanotecnologia</div>
+        <div id="nanos-container">
+            <div class="nano-atual">
+                <p>A nanotecnologia é hoje essencial para a medicina. Além de diagnóstico, a nanotecnologia auxilia em
+                    muitas terapias, sendo que quase todo remédio de última geração é baseado em nanotecnologia. </p>
+            </div>
+            <div class="nano-atual">
+                <p>Ocorre que um dos grandes avanços da medicina tem sido permitir que o princípio ativo de um remédio
+                    seja
+                    liberado no local e na quantidade necessária. Isso reduz os efeitos colaterais, além de aumentar a
+                    eficiência do tratamento.</p>
+            </div>
+            <div class="nano-atual">
+                <p><em> "Todos devem ter observado como as sessões de quimioterapia são menos agressivas do que no
+                        passado e
+                        em quase todos os tipos de tratamento. Isso se deve, em grande parte, à liberação controlada dos
+                        remédios. Além disso, algumas doenças incuráveis até há pouco tempo, hoje podem ser curadas. Um
+                        exemplo incrível é o câncer de fígado. Alguns tipos já são curáveis a partir de
+                        nanotecnologia."<br><br>- Osvaldo Novais</em></p>
             </div>
         </div>
-        <div class="background-container">
-            <div class="background-picture">
-                <div class="background-text">
-                    <h3>Nanotecnologia nas células-tronco</h3>
-                    <p>A Nanotecnologia é uma ciência que trabalha em escala super reduzida, chamada nanométrica. Um nanômetro corresponde a um bilionésimo de metro, o que torna possível a medição de átomos e moléculas. Sendo assim, não há nada no Universo que não possa ser afetado pela Nanotecnologia, já que tudo é composto por átomos.</p>
-                    <a href="https://journal.einstein.br/wp-content/plugins/xml-to-html/include/lens/index.php?xml=2317-6385-eins-16-04-eRB4587.xml&lang=pt-br" target="_blank" class="button">Saiba mais</a>
-                </div>
+        <video controls loop src="./video/part-dedey.mp4" class="gallery-image" type="video/mp4"></video>
+        <a class="btnback" href="#showcase">Voltar ao início</a>
+    </section>
+
+    <section id="gallery">
+        <div class="headline">Galeria</div>
+        <div id="gallery-container">
+            <video controls loop src="./video/part-alanna.mp4" class="gallery-image" type="video/mp4"></video>
+            <video controls loop src="./video/part-ivan.mp4" class="gallery-image" type="video/mp4"></video>
+            <video controls loop src="./video/part-dedey.mp4" class="gallery-image" type="video/mp4"></video>
+            <video src="" class="gallery-image" type="video/mp4"></video>
+            <video controls loop src="./video/maket-video.mp4" class="gallery-image" type="video/mp4"></video>
+            <img src="./imagem/mak3.png" alt="" class="gallery-image">
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="headline">Equipe</div>
+        <div id="testimonials-container">
+            <div class="testimonial">
+                <img src="./imagem/dedey.png" alt="" class="person">
+                <p>ADSON MARINHO</p>
+            </div>
+            <div class="testimonial">
+                <img src="./imagem/vida2.png" alt="" class="person">
+                <p>ALANNA SILVA</p>
+            </div>
+            <div class="testimonial">
+                <img src="./imagem/ivanzuxo.png" alt="" class="person">
+                <p>IVAN CARLOS</p>
+            </div>
+            <div class="testimonial">
+                <img src="./imagem/caradocrime.jpg" alt="" class="person">
+                <p>LUCAS OLIVEIRA</p>
             </div>
         </div>
-            <div id="prev" onclick="prev()"><</div>
-            <div id="next" onclick="next()">></div>
-    </section> -->
-    <script type="text/javascript" src="../js/scripts.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+    </section>
+    <a class="btnback" href="#showcase">Voltar ao início</a>
+
+    <footer id="footer">
+        <p>Copyright 2023 - All rights reserved.</p>
+        <p>Designed by Clube da Luta.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script src="./js/scripts.js"></script>
 </body>
 
 </html>
